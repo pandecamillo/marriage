@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="container dialog" id="dialog">
+      <img
+        class="btn_close"
+        src="close.png"
+        alt="close"
+        width="20"
+        onclick="close_dialog()"
+      />
+      <center>  
+     <div id="dialog-content">
+        <h1>Veux tu m'epouser ?</h1>
+        <div class="buttons">
+          <button class="button primary" onclick="reponse_positive()">Oui</button>
+          <button class="button secondary" onclick="reponse_negative()">Non</button>
+        </div>
+    </div>
+    </section>
+</center> 
+    <center>
+      <section>
+        <button onclick="open_dialog()" class="button get-started">
+          PROPOSER LA FILLE 
+        </button>
+      </section>
+    </center>
+    <center>
+      <small style="font-size: 0.9rem"
+        >Créee par <strong> Camillo&lt;/&gt;</strong></small
+      >
+    </center>
+
+    <section class="container2">
+
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
